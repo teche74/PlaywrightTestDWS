@@ -1,0 +1,23 @@
+.
+├── README.md
+├── config.js
+├── features
+│   ├── login.feature
+│   ├── register.feature
+│   └── step_definitions
+│       ├── login.step.js
+│       └── register.step.js
+├── package-lock.json
+├── package.json
+├── pages
+│   ├── base.js
+│   ├── login.js
+│   └── register.js
+├── playwright.config.js
+├── structure.txt
+├── support
+│   └── hooks.js
+└── tests
+    └── login.spec.js
+
+600 directories, 4470 files
