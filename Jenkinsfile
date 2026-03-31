@@ -24,15 +24,5 @@ pipeline {
                 bat 'npx playwright test'
             }
         }
-
-        stage('Publish Report') {
-            steps {
-                publishHTML([
-                    reportDir: 'playwright-report',
-                    reportFiles: 'index.html',
-                    reportName: 'Playwright Report'
-                ])
-            }
-        }
     }
 }
